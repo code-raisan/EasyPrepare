@@ -1,0 +1,34 @@
+{
+  "packageManager": "yarn@4.1.0",
+  "name": "easy-prepare",
+  "description": "This tool is designed to enable efficient project setup (generation of env files, etc.).",
+  "version": "0.1.1",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node --files src/main.ts",
+    "build": "tsc"
+  },
+  "bin": {
+    "easy-prepare": "dist/main.js"
+  },
+  "dependencies": {
+    "@inquirer/confirm": "^3.0.0",
+    "@inquirer/select": "^2.0.0",
+    "app-root-path": "^3.1.0",
+    "chalk": "4",
+    "clear": "^0.1.0",
+    "commander": "^12.0.0",
+    "edit-dotenv": "^1.0.4",
+    "figlet": "^1.7.0",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+    "@types/clear": "^0",
+    "@types/figlet": "^1",
+    "@types/node": "^20.11.19",
+    "@types/shelljs": "^0",
+    "ts-node": "^10.9.2",
+    "tsc": "^2.0.4",
+    "typescript": "^5.3.3"
+  }
+}

@@ -2,7 +2,7 @@
   "packageManager": "yarn@4.1.0",
   "name": "easy-prepare",
   "description": "This tool is designed to enable efficient project setup (generation of env files, etc.).",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "keywords": ["cli", "tools"],
   "homepage": "https://github.com/code-raisan/EasyPrepare",
